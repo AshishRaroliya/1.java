@@ -1,0 +1,51 @@
+import java.util.Scanner;
+class Calculator
+{  static String operation ;
+  
+   static double c;
+
+
+  public static void Addition(double a,double b)
+  {
+      c=a+b;
+      System.out.println(c);
+  }
+  public static void Substraction(double a,double b)
+  {
+      c=a-b;
+      System.out.println(c);
+  }
+  public static void Multiplication(double a,double b)
+  {
+      c=a*b;
+      System.out.println(c);
+  }
+  public static void Division(double a,double b)
+  {
+      c=a/b;
+      System.out.println(c);
+  }
+  
+}
+
+class Mainclass
+{
+  public static void main(String [] args)
+  {  Scanner s1 = new Scanner(System.in);
+     System.out.println("enter value of a");
+     double a = s1.nextDouble();
+     System.out.println("enter value of b");
+     double b= s1.nextDouble();
+     System.out.println("type of operation");
+     String operation = s1.next();
+
+     Calculator c1 = new Calculator();
+                c1.Addition(a,b);
+     Calculator c2 = new Calculator();          
+                c2.Substraction(a,b);
+     Calculator c3 = new Calculator();
+                c3.Multiplication(a,b);
+     Calculator c4 = new Calculator();
+                c4.Division(a,b);
+   }
+}   
