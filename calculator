@@ -40,11 +40,15 @@ class Mainclass
      String operation = s1.next();
 
      Calculator c1 = new Calculator();
+     System.out.println("answer of addition");
                 c1.Addition(a,b);
+      System.out.println("ans of substraction");          
      Calculator c2 = new Calculator();          
                 c2.Substraction(a,b);
+      System.out.println("answer of multiplication");
      Calculator c3 = new Calculator();
                 c3.Multiplication(a,b);
+      System.out.println("answer of division");
      Calculator c4 = new Calculator();
                 c4.Division(a,b);
    }
