@@ -24,5 +24,6 @@ class Test {
 		int n = s.nextInt();
 		Series s1 = new Series();
 		s1.test(n);
+		System.out.println("added");
 	}
 }
