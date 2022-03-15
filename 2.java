@@ -11,7 +11,7 @@ class Series
       a=a+c;
       System.out.print(""+a+",");
     }
-
+ System.out.println("disco");
   }
 
 }
